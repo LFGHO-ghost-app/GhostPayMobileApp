@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface reactnativestarterTests : XCTestCase
+@interface GhostPayTests : XCTestCase
 
 @end
 
-@implementation reactnativestarterTests
+@implementation GhostPayTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL (^)(UIView *view))test
 {

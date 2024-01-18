@@ -28,7 +28,7 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'reactnativestarter' do
+target 'GhostPay' do
   use_expo_modules!
   post_integrate do |installer|
     begin
@@ -58,7 +58,7 @@ target 'reactnativestarter' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'reactnativestarterTests' do
+  target 'GhostPayTests' do
     inherit! :complete
     # Pods for testing
   end

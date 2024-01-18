@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* reactnativestarterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* reactnativestarterTests.m */; };
+		00E356F31AD99517003FC87E /* GhostPayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* GhostPayTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		5EA0637ACDCE9594DC8301DC /* libPods-reactnativestarter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ACCDC63FD4C7F8E6C9E6308 /* libPods-reactnativestarter.a */; };
-		7110B435674E1DC4C17BF168 /* libPods-reactnativestarter-reactnativestarterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 371EF66620C2C03A47101562 /* libPods-reactnativestarter-reactnativestarterTests.a */; };
+		5EA0637ACDCE9594DC8301DC /* libPods-GhostPay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ACCDC63FD4C7F8E6C9E6308 /* libPods-GhostPay.a */; };
+		7110B435674E1DC4C17BF168 /* libPods-GhostPay-GhostPayTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 371EF66620C2C03A47101562 /* libPods-GhostPay-GhostPayTests.a */; };
 		7F0E80342AFB364B000316AF /* OpenSSL.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F0E80332AFB364B000316AF /* OpenSSL.xcframework */; };
 		7F0E80352AFB364B000316AF /* OpenSSL.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7F0E80332AFB364B000316AF /* OpenSSL.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
@@ -26,7 +26,7 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = reactnativestarter;
+			remoteInfo = "GhostPay";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -45,25 +45,25 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* reactnativestarterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reactnativestarterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* GhostPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GhostPayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* reactnativestarterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reactnativestarterTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* reactnativestarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reactnativestarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = reactnativestarter/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = reactnativestarter/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = reactnativestarter/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = reactnativestarter/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = reactnativestarter/main.m; sourceTree = "<group>"; };
-		1ACCDC63FD4C7F8E6C9E6308 /* libPods-reactnativestarter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactnativestarter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		371EF66620C2C03A47101562 /* libPods-reactnativestarter-reactnativestarterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactnativestarter-reactnativestarterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		39AD03CB5F2E623127467FE5 /* Pods-reactnativestarter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativestarter.release.xcconfig"; path = "Target Support Files/Pods-reactnativestarter/Pods-reactnativestarter.release.xcconfig"; sourceTree = "<group>"; };
-		473F771F265DB23A397C231D /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-reactnativestarter/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* GhostPayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GhostPayTests.m"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* GhostPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GhostPay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "GhostPay/AppDelegate.h"; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = "GhostPay/AppDelegate.mm"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "GhostPay/Images.xcassets"; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "GhostPay/Info.plist"; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "GhostPay/main.m"; sourceTree = "<group>"; };
+		1ACCDC63FD4C7F8E6C9E6308 /* libPods-GhostPay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GhostPay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		371EF66620C2C03A47101562 /* libPods-GhostPay-GhostPayTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GhostPay-GhostPayTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39AD03CB5F2E623127467FE5 /* Pods-GhostPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhostPay.release.xcconfig"; path = "Target Support Files/Pods-GhostPay/Pods-GhostPay.release.xcconfig"; sourceTree = "<group>"; };
+		473F771F265DB23A397C231D /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-GhostPay/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		7F0E80332AFB364B000316AF /* OpenSSL.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = OpenSSL.xcframework; path = "Pods/OpenSSL-Universal/Frameworks/OpenSSL.xcframework"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = reactnativestarter/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A0CA93133267E1C97A467B42 /* Pods-reactnativestarter-reactnativestarterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativestarter-reactnativestarterTests.release.xcconfig"; path = "Target Support Files/Pods-reactnativestarter-reactnativestarterTests/Pods-reactnativestarter-reactnativestarterTests.release.xcconfig"; sourceTree = "<group>"; };
-		C83D8EACBEE047FDEAFECD56 /* Pods-reactnativestarter-reactnativestarterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativestarter-reactnativestarterTests.debug.xcconfig"; path = "Target Support Files/Pods-reactnativestarter-reactnativestarterTests/Pods-reactnativestarter-reactnativestarterTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D6F76FF9B5F241AE740C968A /* Pods-reactnativestarter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativestarter.debug.xcconfig"; path = "Target Support Files/Pods-reactnativestarter/Pods-reactnativestarter.debug.xcconfig"; sourceTree = "<group>"; };
-		E5A1C337B14517C1DE996FAC /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-reactnativestarter-reactnativestarterTests/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "GhostPay/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		A0CA93133267E1C97A467B42 /* Pods-GhostPay-GhostPayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhostPay-GhostPayTests.release.xcconfig"; path = "Target Support Files/Pods-GhostPay-GhostPayTests/Pods-GhostPay-GhostPayTests.release.xcconfig"; sourceTree = "<group>"; };
+		C83D8EACBEE047FDEAFECD56 /* Pods-GhostPay-GhostPayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhostPay-GhostPayTests.debug.xcconfig"; path = "Target Support Files/Pods-GhostPay-GhostPayTests/Pods-GhostPay-GhostPayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6F76FF9B5F241AE740C968A /* Pods-GhostPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhostPay.debug.xcconfig"; path = "Target Support Files/Pods-GhostPay/Pods-GhostPay.debug.xcconfig"; sourceTree = "<group>"; };
+		E5A1C337B14517C1DE996FAC /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-GhostPay-GhostPayTests/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -72,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7110B435674E1DC4C17BF168 /* libPods-reactnativestarter-reactnativestarterTests.a in Frameworks */,
+				7110B435674E1DC4C17BF168 /* libPods-GhostPay-GhostPayTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,20 +81,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F0E80342AFB364B000316AF /* OpenSSL.xcframework in Frameworks */,
-				5EA0637ACDCE9594DC8301DC /* libPods-reactnativestarter.a in Frameworks */,
+				5EA0637ACDCE9594DC8301DC /* libPods-GhostPay.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* reactnativestarterTests */ = {
+		00E356EF1AD99517003FC87E /* GhostPayTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* reactnativestarterTests.m */,
+				00E356F21AD99517003FC87E /* GhostPayTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = reactnativestarterTests;
+			path = "GhostPayTests";
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -105,7 +105,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* reactnativestarter */ = {
+		13B07FAE1A68108700A75B9A /* GhostPay */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -115,7 +115,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = reactnativestarter;
+			name = "GhostPay";
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -123,8 +123,8 @@
 			children = (
 				7F0E80332AFB364B000316AF /* OpenSSL.xcframework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				1ACCDC63FD4C7F8E6C9E6308 /* libPods-reactnativestarter.a */,
-				371EF66620C2C03A47101562 /* libPods-reactnativestarter-reactnativestarterTests.a */,
+				1ACCDC63FD4C7F8E6C9E6308 /* libPods-GhostPay.a */,
+				371EF66620C2C03A47101562 /* libPods-GhostPay-GhostPayTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -132,18 +132,18 @@
 		4823C9AE28DD1B8FCD9D4D5F /* ExpoModulesProviders */ = {
 			isa = PBXGroup;
 			children = (
-				7D15C1E7FFD10FCFE9DBBBF8 /* reactnativestarter */,
-				E6C35FDF029A34126B789C2D /* reactnativestarterTests */,
+				7D15C1E7FFD10FCFE9DBBBF8 /* GhostPay */,
+				E6C35FDF029A34126B789C2D /* GhostPayTests */,
 			);
 			name = ExpoModulesProviders;
 			sourceTree = "<group>";
 		};
-		7D15C1E7FFD10FCFE9DBBBF8 /* reactnativestarter */ = {
+		7D15C1E7FFD10FCFE9DBBBF8 /* GhostPay */ = {
 			isa = PBXGroup;
 			children = (
 				473F771F265DB23A397C231D /* ExpoModulesProvider.swift */,
 			);
-			name = reactnativestarter;
+			name = "GhostPay";
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -156,9 +156,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* reactnativestarter */,
+				13B07FAE1A68108700A75B9A /* GhostPay */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* reactnativestarterTests */,
+				00E356EF1AD99517003FC87E /* GhostPayTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -172,8 +172,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* reactnativestarter.app */,
-				00E356EE1AD99517003FC87E /* reactnativestarterTests.xctest */,
+				13B07F961A680F5B00A75B9A /* GhostPay.app */,
+				00E356EE1AD99517003FC87E /* GhostPayTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -181,28 +181,28 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D6F76FF9B5F241AE740C968A /* Pods-reactnativestarter.debug.xcconfig */,
-				39AD03CB5F2E623127467FE5 /* Pods-reactnativestarter.release.xcconfig */,
-				C83D8EACBEE047FDEAFECD56 /* Pods-reactnativestarter-reactnativestarterTests.debug.xcconfig */,
-				A0CA93133267E1C97A467B42 /* Pods-reactnativestarter-reactnativestarterTests.release.xcconfig */,
+				D6F76FF9B5F241AE740C968A /* Pods-GhostPay.debug.xcconfig */,
+				39AD03CB5F2E623127467FE5 /* Pods-GhostPay.release.xcconfig */,
+				C83D8EACBEE047FDEAFECD56 /* Pods-GhostPay-GhostPayTests.debug.xcconfig */,
+				A0CA93133267E1C97A467B42 /* Pods-GhostPay-GhostPayTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		E6C35FDF029A34126B789C2D /* reactnativestarterTests */ = {
+		E6C35FDF029A34126B789C2D /* GhostPayTests */ = {
 			isa = PBXGroup;
 			children = (
 				E5A1C337B14517C1DE996FAC /* ExpoModulesProvider.swift */,
 			);
-			name = reactnativestarterTests;
+			name = "GhostPayTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* reactnativestarterTests */ = {
+		00E356ED1AD99517003FC87E /* GhostPayTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "reactnativestarterTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "GhostPayTests" */;
 			buildPhases = (
 				3D6E8D35C81065677FFCDFA5 /* [CP] Check Pods Manifest.lock */,
 				1BF36434C1E44575E04A3FD1 /* [Expo] Configure project */,
@@ -217,14 +217,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = reactnativestarterTests;
-			productName = reactnativestarterTests;
-			productReference = 00E356EE1AD99517003FC87E /* reactnativestarterTests.xctest */;
+			name = "GhostPayTests";
+			productname = "GhostPayTests";
+			productReference = 00E356EE1AD99517003FC87E /* GhostPayTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* reactnativestarter */ = {
+		13B07F861A680F5B00A75B9A /* GhostPay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "reactnativestarter" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "GhostPay" */;
 			buildPhases = (
 				5B63671040B639776211B650 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -241,9 +241,9 @@
 			);
 			dependencies = (
 			);
-			name = reactnativestarter;
-			productName = reactnativestarter;
-			productReference = 13B07F961A680F5B00A75B9A /* reactnativestarter.app */;
+			name = "GhostPay";
+			productName = "GhostPay";
+			productReference = 13B07F961A680F5B00A75B9A /* GhostPay.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -263,7 +263,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "reactnativestarter" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "GhostPay" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -276,8 +276,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* reactnativestarter */,
-				00E356ED1AD99517003FC87E /* reactnativestarterTests */,
+				13B07F861A680F5B00A75B9A /* GhostPay */,
+				00E356ED1AD99517003FC87E /* GhostPayTests */,
 			);
 		};
 /* End PBXProject section */
@@ -324,15 +324,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-reactnativestarter/Pods-reactnativestarter-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-GhostPay/Pods-GhostPay-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-reactnativestarter/Pods-reactnativestarter-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-GhostPay/Pods-GhostPay-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reactnativestarter/Pods-reactnativestarter-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GhostPay/Pods-GhostPay-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		11694D395C3F7A5CB8DE33EC /* [CP] Embed Pods Frameworks */ = {
@@ -341,15 +341,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-reactnativestarter-reactnativestarterTests/Pods-reactnativestarter-reactnativestarterTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-GhostPay-GhostPayTests/Pods-GhostPay-GhostPayTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-reactnativestarter-reactnativestarterTests/Pods-reactnativestarter-reactnativestarterTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-GhostPay-GhostPayTests/Pods-GhostPay-GhostPayTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reactnativestarter-reactnativestarterTests/Pods-reactnativestarter-reactnativestarterTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GhostPay-GhostPayTests/Pods-GhostPay-GhostPayTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		1BF36434C1E44575E04A3FD1 /* [Expo] Configure project */ = {
@@ -369,7 +369,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-reactnativestarter-reactnativestarterTests/expo-configure-project.sh\"\n";
+			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-GhostPay-GhostPayTests/expo-configure-project.sh\"\n";
 		};
 		3D6E8D35C81065677FFCDFA5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -386,7 +386,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-reactnativestarter-reactnativestarterTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-GhostPay-GhostPayTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -408,7 +408,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-reactnativestarter-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-GhostPay-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -421,15 +421,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-reactnativestarter-reactnativestarterTests/Pods-reactnativestarter-reactnativestarterTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-GhostPay-GhostPayTests/Pods-GhostPay-GhostPayTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-reactnativestarter-reactnativestarterTests/Pods-reactnativestarter-reactnativestarterTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-GhostPay-GhostPayTests/Pods-GhostPay-GhostPayTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reactnativestarter-reactnativestarterTests/Pods-reactnativestarter-reactnativestarterTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GhostPay-GhostPayTests/Pods-GhostPay-GhostPayTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B63C2289AC33559DCD6CB7F9 /* [Expo] Configure project */ = {
@@ -449,7 +449,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-reactnativestarter/expo-configure-project.sh\"\n";
+			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-GhostPay/expo-configure-project.sh\"\n";
 		};
 		D9AF1F65582BC5D63C8AF8A0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -457,15 +457,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-reactnativestarter/Pods-reactnativestarter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-GhostPay/Pods-GhostPay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-reactnativestarter/Pods-reactnativestarter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-GhostPay/Pods-GhostPay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reactnativestarter/Pods-reactnativestarter-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GhostPay/Pods-GhostPay-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -494,7 +494,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* reactnativestarterTests.m in Sources */,
+				00E356F31AD99517003FC87E /* GhostPayTests.m in Sources */,
 				F39F59420E76887C78658B8E /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,7 +514,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* reactnativestarter */;
+			target = 13B07F861A680F5B00A75B9A /* GhostPay */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -522,14 +522,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C83D8EACBEE047FDEAFECD56 /* Pods-reactnativestarter-reactnativestarterTests.debug.xcconfig */;
+			baseConfigurationReference = C83D8EACBEE047FDEAFECD56 /* Pods-GhostPay-GhostPayTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = reactnativestarterTests/Info.plist;
+				INFOPLIST_FILE = "GhostPayTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -542,19 +542,19 @@
 					"$(inherited)",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = com.reactnativestarter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GhostPay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactnativestarter.app/reactnativestarter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GhostPay.app/GhostPay";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0CA93133267E1C97A467B42 /* Pods-reactnativestarter-reactnativestarterTests.release.xcconfig */;
+			baseConfigurationReference = A0CA93133267E1C97A467B42 /* Pods-GhostPay-GhostPayTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = reactnativestarterTests/Info.plist;
+				INFOPLIST_FILE = "GhostPayTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -567,21 +567,22 @@
 					"$(inherited)",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
-				PRODUCT_BUNDLE_IDENTIFIER = com.reactnativestarter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GhostPay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactnativestarter.app/reactnativestarter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GhostPay.app/GhostPay";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6F76FF9B5F241AE740C968A /* Pods-reactnativestarter.debug.xcconfig */;
+			baseConfigurationReference = D6F76FF9B5F241AE740C968A /* Pods-GhostPay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = reactnativestarter/Info.plist;
+				INFOPLIST_FILE = "GhostPay/Info.plist";
+             INFOPLIST_KEY_CFBundleDisplayName = "GhostPay";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -593,8 +594,8 @@
 					"-lc++",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = com.reactnativestarter;
-				PRODUCT_NAME = reactnativestarter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GhostPay;
+				PRODUCT_NAME = "GhostPay";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -603,12 +604,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39AD03CB5F2E623127467FE5 /* Pods-reactnativestarter.release.xcconfig */;
+			baseConfigurationReference = 39AD03CB5F2E623127467FE5 /* Pods-GhostPay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = reactnativestarter/Info.plist;
+				INFOPLIST_FILE = "GhostPay/Info.plist";
+             INFOPLIST_KEY_CFBundleDisplayName = "GhostPay";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -620,8 +622,8 @@
 					"-lc++",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
-				PRODUCT_BUNDLE_IDENTIFIER = com.reactnativestarter;
-				PRODUCT_NAME = reactnativestarter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GhostPay;
+				PRODUCT_NAME = "GhostPay";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -784,7 +786,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "reactnativestarterTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "GhostPayTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -793,7 +795,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "reactnativestarter" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "GhostPay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -802,7 +804,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "reactnativestarter" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "GhostPay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

@@ -22,7 +22,7 @@ const {width: screenWidth, height: screenHeight} = Dimensions.get('window');
 const LoginScreen = () => {
   const address = useAddress();
   const {connect} = useSmartWallet(metamaskWallet(), {
-    factoryAddress: '0x0A2965a37ffd53cDf6c168B64BC03eF70da772A0',
+    factoryAddress: '0x7e5643D406A778e7F18E403427F5164ba449Ed0B',
     gasless: true,
   });
   const [loading, setLoading] = useState<boolean>(true);
